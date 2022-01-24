@@ -126,7 +126,6 @@ public class ChefExecutorPool {
                     task.run();
                     task=null;
                 }else {
-                    //当前线程处理完自己的了，就会处理队列中的任务
                     task = taskQueue.poll();
                     if (task!=null){
                         task.run();
