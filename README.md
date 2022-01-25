@@ -11,4 +11,3 @@ The following frameworks/libraries/tools were used in the program:
 - Spring boot 2.5.6
 - H2 database
 - Maven/Gradle
-- using a thread pool to simulate the behavior of three chefs to handle orders
